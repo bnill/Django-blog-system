@@ -1,0 +1,436 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"wait",
+				"wait3seconds"
+			],
+			[
+				"pacman",
+				"pacmanDistances"
+			],
+			[
+				"ghos",
+				"ghostDistances"
+			],
+			[
+				"min_di",
+				"min_dist_to_food"
+			],
+			[
+				"gh",
+				"ghostDistances"
+			],
+			[
+				"min_dis",
+				"min_dist_to_enemy"
+			],
+			[
+				"closes",
+				"closestFoodDistance"
+			],
+			[
+				"min",
+				"min_dist_to_enemy"
+			],
+			[
+				"power",
+				"powerCapsules"
+			],
+			[
+				"possib",
+				"possiblePos"
+			],
+			[
+				"enem",
+				"enemyPos"
+			],
+			[
+				"updateInferen",
+				"updateInferenceByObserve"
+			],
+			[
+				"updateInfe",
+				"updateInferenceByTime"
+			],
+			[
+				"oldpos",
+				"oldpos"
+			],
+			[
+				"possible",
+				"possiblePositions"
+			],
+			[
+				"getA",
+				"getAllPossibleAssignmentDicts"
+			],
+			[
+				"full",
+				"fullJointCPT"
+			],
+			[
+				"inferen",
+				"inferenceByVariableElimination"
+			],
+			[
+				"condition",
+				"conditionedVariables"
+			],
+			[
+				"get",
+				"getAllPossibleAssignmentDicts"
+			],
+			[
+				"uncondition",
+				"unconditionedVariables"
+			],
+			[
+				"dict",
+				"variableDomainsDict"
+			],
+			[
+				"uncondi",
+				"unconditionedVariables"
+			],
+			[
+				"obv",
+				"obsVarFactor"
+			],
+			[
+				"No",
+				"NO_OBS_VAL"
+			],
+			[
+				"topRIg",
+				"topRightPos"
+			],
+			[
+				"BottomRigh",
+				"bottomRightPos"
+			],
+			[
+				"bottomLeft",
+				"bottomLeftPos"
+			],
+			[
+				"PROB_ONLY_LEFT",
+				"PROB_ONLY_LEFT_BOTTOM"
+			],
+			[
+				"PROB_BOTH",
+				"PROB_BOTH_TOP"
+			],
+			[
+				"variabls",
+				"variableDomainsDict"
+			],
+			[
+				"FoodHouseV",
+				"FOOD_HOUSE_VAR"
+			],
+			[
+				"weight",
+				"weightVector"
+			],
+			[
+				"legal",
+				"legalActions"
+			],
+			[
+				"next",
+				"next_reverse"
+			],
+			[
+				"arriv",
+				"arrival"
+			],
+			[
+				"arri",
+				"arrival"
+			],
+			[
+				"ghostsPos",
+				"GhostsPos"
+			],
+			[
+				"newFood",
+				"newFoodList"
+			],
+			[
+				"getGhost",
+				"getGhostPositions"
+			],
+			[
+				"ga",
+				"gameState"
+			],
+			[
+				"evalua",
+				"evaluationFunction"
+			],
+			[
+				"successor",
+				"successorGameState"
+			],
+			[
+				"bre",
+				"breadthFirstSearch"
+			],
+			[
+				"isGo",
+				"isGoalState"
+			],
+			[
+				"remaining",
+				"remaining_food_list"
+			],
+			[
+				"remain",
+				"remaining_food_list"
+			],
+			[
+				"corner_",
+				"corner_visited"
+			],
+			[
+				"ucs",
+				"UCS_Node"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 359.0,
+		"last_filter": "install package",
+		"selected_items":
+		[
+			[
+				"install package",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 504.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib2,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')",
+			"install package",
+			"python",
+			"import urllib2",
+			"import urllib2,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print 'Please restart Sublime Text to finish installation'",
+			"import urllib2,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request, os, hashlib;"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/zhangyy/Desktop/todoList/templates/base.html",
+		"/Users/zhangyy/Desktop/todoList/mysite/views.py",
+		"/Users/zhangyy/Desktop/nodeLearning/node-todo-api/playground/mongodb-connect.js",
+		"/Users/zhangyy/Desktop/nodeLearning/node-todo-api/playground/mongodb-find.js",
+		"/Users/zhangyy/Desktop/nodeLearning/node-todo-api/playground/mongodb-delete.js",
+		"/Users/zhangyy/Desktop/nodeLearning/node-todo-api/playground/mongodb-update.js",
+		"/Users/zhangyy/Desktop/nodeLearning/.gitignore",
+		"/Users/zhangyy/Desktop/javascript/B3_GlobalEnvironment/Starter/app.js",
+		"/Users/zhangyy/Desktop/javascript/app.js",
+		"/Users/zhangyy/Desktop/javascript/test.js",
+		"/Users/zhangyy/Desktop/javascript/index.html",
+		"/Users/zhangyy/Desktop/cs5100 files/homework/Final_Contest/contest/opponent.py",
+		"/Users/zhangyy/Desktop/cs5100 files/homework/Final_Contest/contest/layout.py",
+		"/Users/zhangyy/Desktop/cs5100 files/homework/Final_Contest/contest/util.py",
+		"/Users/zhangyy/Desktop/cs5100 files/homework/HW2/multiagent/multiAgents.py",
+		"/Users/zhangyy/Desktop/cs5100 files/homework/Final_Contest/contest/game.py",
+		"/Users/zhangyy/Desktop/networking/network-projects-master/Content Delivery Network/dnsserver.py",
+		"/Users/zhangyy/Desktop/javascriptReview/javascripting/function.js",
+		"/Users/zhangyy/Desktop/javascriptReview/javascripting/func-argument.js",
+		"/Users/zhangyy/Desktop/javascriptReview/javascripting/object.js",
+		"/Users/zhangyy/Desktop/javascriptReview/javascripting/object-prop.js",
+		"/Users/zhangyy/Desktop/javascriptReview/javascripting/array-filtering.js",
+		"/Users/zhangyy/Desktop/javascriptReview/javascripting/loop-through-arr.js",
+		"/Users/zhangyy/Desktop/javascriptReview/javascripting/accessing-array-val.js",
+		"/Users/zhangyy/Desktop/javascriptReview/javascripting/string-length.js",
+		"/Users/zhangyy/Desktop/javascriptReview/javascripting/numbers.js",
+		"/Users/zhangyy/Desktop/javascriptReview/javascripting/reverse.js",
+		"/Users/zhangyy/Desktop/javascriptReview/javascripting/introduction.js",
+		"/Users/zhangyy/Desktop/javascriptReview/javascripting/variables.js",
+		"/Users/zhangyy/Desktop/javascriptReview/javascripting/string.js",
+		"/Users/zhangyy/Desktop/cs5100 files/homework/HW4/bayesNets2/bayesNet.py",
+		"/Users/zhangyy/Desktop/cs5100 files/homework/HW4/bayesNets2/util.py",
+		"/Users/zhangyy/Desktop/cs5100 files/homework/HW4/bayesNets2/layout.py",
+		"/Users/zhangyy/Desktop/cs5100 files/homework/HW4/bayesNets2/game.py",
+		"/Users/zhangyy/Desktop/cs5100 files/homework/HW3/readme.txt",
+		"/Users/zhangyy/Desktop/cs5100 files/homework/HW3/reinforcement/learningAgents.py",
+		"/Users/zhangyy/Desktop/cs5100 files/homework/HW3/reinforcement/valueIterationAgents.py",
+		"/Users/zhangyy/Desktop/cs5100 files/homework/HW1/search/search.py",
+		"/Users/zhangyy/Desktop/cs5100 files/homework/HW1/search/searchAgents.py",
+		"/Users/zhangyy/Desktop/test/oa2/check_subtree.cpp",
+		"/Users/zhangyy/Desktop/test/merge.cpp",
+		"/Users/zhangyy/Desktop/test.cpp",
+		"/Users/zhangyy/Desktop/test/ITR.cpp",
+		"/Users/zhangyy/Desktop/cs5100 files/homework/HW1/search/Readme.txt",
+		"/Users/zhangyy/Desktop/cs5100 files/homework/HW1/search/Readme",
+		"/Users/zhangyy/Desktop/cs5100 files/homework/HW1/search/submission_autograder.py",
+		"/Users/zhangyy/Desktop/cs5100 files/homework/HW1/search/grading.py",
+		"/Users/zhangyy/Desktop/test/LongestFileName.cpp",
+		"/Users/zhangyy/Desktop/test/LongestFileName",
+		"/Users/zhangyy/Desktop/test/RomanToInteger.cpp",
+		"/Users/zhangyy/Desktop/neu-web-dev/webdev/test/app.js",
+		"/Users/zhangyy/Desktop/cs5610 webdev/test1/hello.js",
+		"/Users/zhangyy/Desktop/cs5100 files/search/util.py",
+		"/Users/zhangyy/Desktop/cs5100 files/search/game.py",
+		"/Users/zhangyy/Desktop/cs5100 files/search/pacman.py",
+		"/Users/zhangyy/Desktop/cs5100 files/search/searchAgents.py",
+		"/Users/zhangyy/Desktop/cs5100 files/search/search.py",
+		"/Users/zhangyy/Desktop/cs5100 files/tutorial/shop.py"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "blog.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 259.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
