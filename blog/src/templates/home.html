@@ -1,6 +1,7 @@
 {% extends "base.html" %}
+{% block head_title %}Welcome || {{block.super}}{% endblock head_title %}
 {% block content %}
-{{block.super}}
+<div class="container">	
 	<h1>Hello World!</h1>
 	<p>This is {{html_var}} coming through</p>
 	<p>
@@ -16,4 +17,5 @@
 			{{some_item}}</br>
 		{% endfor %}
 	</p>
+</div>
 {% endblock content %}

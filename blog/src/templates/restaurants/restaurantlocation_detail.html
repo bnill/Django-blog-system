@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block head_title %}Detail || {{block.super}}{% endblock head_title %}
+{% block content %}
+<div class="container">
+	<h1> {{object.title}} <small>{{object.category}}</small></h1>
+	<p>{{object.location}}</p>
+	<p>{{object.timestamp}}, {{object.updated|timesince}} ago</p>
+</div>
+{% endblock %}
